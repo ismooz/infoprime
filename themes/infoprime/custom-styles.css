@@ -1,0 +1,59 @@
+/* Styles de base pour le tableau */
+#myTable {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative; /* Nécessaire pour le positionnement sticky */
+  background-color: #fff; /* Fond blanc pour le tableau */
+  color: #212529; /* Couleur du texte standard de Bootstrap */
+  border-spacing: 0; /* Supprime l'espacement entre les bordures */
+}
+
+/* Styles pour l'en-tête fixe */
+#myTable thead th {
+  position: sticky;
+  top: 0;
+  background-color: #8b8b8b !important; /* Couleur d'arrière-plan de l'en-tête de Bootstrap */
+  z-index: 10;
+  padding: .75rem; /* Padding Bootstrap standard */
+  vertical-align: bottom;
+  border-top: 2px solid #dee2e6; /* Bordure supérieure épaisse */
+  border-bottom: 2px solid #dee2e6; /* Bordure inférieure épaisse */
+  text-align: left;
+}
+
+/* Styles pour les cellules du tableau */
+#myTable th, #myTable td {
+  padding: .75rem; /* Padding Bootstrap standard */
+  vertical-align: top;
+  border-top: 1px solid #dee2e6; /* Bordure supérieure des cellules */
+}
+
+/* Alternance des couleurs des lignes pour améliorer la lisibilité */
+#myTable tbody tr:nth-child(odd) {
+  background-color: #f8f9fa; /* Couleur d'arrière-plan pour les lignes impaires */
+}
+
+/* Style au survol des lignes */
+#myTable tr:hover {
+  background-color: #f1f3f5; /* Légère variation au survol */
+}
+
+/* Styles pour l'indication du tri */
+th {
+  cursor: pointer;
+}
+
+th.sort-asc::after, th.sort-desc::after {
+  content: "";
+  border: 4px solid transparent;
+  display: inline-block;
+  margin-left: .255em; /* Espacement après le texte */
+}
+
+th.sort-asc::after {
+  border-bottom-color: #000;
+}
+
+th.sort-desc::after {
+  border-top-color: #000;
+}
