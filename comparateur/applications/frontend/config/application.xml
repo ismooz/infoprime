@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+    <define var="nbLangues" value="10" />
+    <define var="nbComparaisons" value="10" />
+    <define var="nbChars" value="100" />
+</definitions>

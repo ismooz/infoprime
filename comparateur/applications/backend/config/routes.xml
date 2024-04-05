@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Home -->
+    <route url="/comparateur/admin/" module="home" action="index" />
+    <route url="/comparateur/admin/home/" module="home" action="index" />
+    <route url="/comparateur/admin/home/contact/" module="home" action="contact" />
+    <route url="/comparateur/admin/home/forgot/" module="home" action="forgot" />
+    <!-- Connexion -->
+    <route url="/comparateur/admin/connexion/deconnexion/" module="connexion" action="deconnexion" />
+    <!-- Comprateur -->
+    <route url="/comparateur/admin/comparateur/options/" module="comparateur" action="options" />
+    <!-- Assureurs -->
+    <route url="/comparateur/admin/assureurs/" module="assureurs" action="index" />
+    <route url="/comparateur/admin/assureurs/([0-9]+)/" module="assureurs" action="index" vars="page" />
+    <route url="/comparateur/admin/assureurs/insert\.html" module="assureurs" action="insert" />
+    <route url="/comparateur/admin/assureurs/update-([0-9]+)\.html" module="assureurs" action="update" vars="id" />
+    <route url="/comparateur/admin/assureurs/delete-([0-9]+)\.html" module="assureurs" action="delete" vars="id" />
+    <!-- Demandes de contact -->
+    <route url="/comparateur/admin/contacts/" module="contacts" action="index" />
+    <route url="/comparateur/admin/contacts/([0-9]+)/" module="contacts" action="index" vars="page" />
+    <route url="/comparateur/admin/contacts/insert\.html" module="contacts" action="insert" />
+    <route url="/comparateur/admin/contacts/update-([0-9]+)\.html" module="contacts" action="update" vars="id" />
+    <route url="/comparateur/admin/contacts/delete-([0-9]+)\.html" module="contacts" action="delete" vars="id" />
+    <!-- Status de demande de contact -->
+    <route url="/comparateur/admin/contactsEtats/" module="contactsEtats" action="index" />
+    <route url="/comparateur/admin/contactsEtats/([0-9]+)/" module="contactsEtats" action="index" vars="page" />
+    <route url="/comparateur/admin/contactsEtats/insert\.html" module="contactsEtats" action="insert" />
+    <route url="/comparateur/admin/contactsEtats/update-([0-9]+)\.html" module="contactsEtats" action="update" vars="id" />
+    <route url="/comparateur/admin/contactsEtats/delete-([0-9]+)\.html" module="contactsEtats" action="delete" vars="id" />    
+    <!-- Types de demande de contact -->
+    <route url="/comparateur/admin/contactsTypes/" module="contactsTypes" action="index" />
+    <route url="/comparateur/admin/contactsTypes/([0-9]+)/" module="contactsTypes" action="index" vars="page" />
+    <route url="/comparateur/admin/contactsTypes/insert\.html" module="contactsTypes" action="insert" />
+    <route url="/comparateur/admin/contactsTypes/update-([0-9]+)\.html" module="contactsTypes" action="update" vars="id" />
+    <route url="/comparateur/admin/contactsTypes/delete-([0-9]+)\.html" module="contactsTypes" action="delete" vars="id" />    
+    <!-- Clients -->
+    <route url="/comparateur/admin/clients/" module="clients" action="index" />
+    <route url="/comparateur/admin/clients/([0-9]+)/" module="clients" action="index" vars="page" />
+    <route url="/comparateur/admin/clients/insert\.html" module="clients" action="insert" />     
+    <route url="/comparateur/admin/clients/update-([0-9]+)\.html" module="clients" action="update" vars="id" />    
+    <route url="/comparateur/admin/clients/delete-([0-9]+)\.html" module="clients" action="delete" vars="id" />     
+    <!-- Clients status -->
+    <route url="/comparateur/admin/clientsStatus/" module="clientsStatus" action="index" />
+    <route url="/comparateur/admin/clientsStatus/([0-9]+)/" module="clientsStatus" action="index" vars="page" />
+    <route url="/comparateur/admin/clientsStatus/insert\.html" module="clientsStatus" action="insert" />     
+    <route url="/comparateur/admin/clientsStatus/update-([0-9]+)\.html" module="clientsStatus" action="update" vars="id" />    
+    <route url="/comparateur/admin/clientsStatus/delete-([0-9]+)\.html" module="clientsStatus" action="delete" vars="id" />       
+    <!-- Courtiers -->    
+    <route url="/comparateur/admin/conseillers/" module="conseillers" action="index" />
+    <route url="/comparateur/admin/conseillers/([0-9]+)/" module="conseillers" action="index" vars="page" />
+    <route url="/comparateur/admin/conseillers/insert\.html" module="conseillers" action="insert" />       
+    <route url="/comparateur/admin/conseillers/update-([0-9]+)\.html" module="conseillers" action="update" vars="id" />       
+    <route url="/comparateur/admin/conseillers/delete-([0-9]+)\.html" module="conseillers" action="delete" vars="id" />       
+    <!-- Langues -->
+    <route url="/comparateur/admin/langues/" module="langues" action="index" />    
+    <route url="/comparateur/admin/langues/([0-9]+)/" module="langues" action="index" vars="page" />    
+    <route url="/comparateur/admin/langues/insert\.html" module="langues" action="insert" />    
+    <route url="/comparateur/admin/langues/update-([0-9]+)\.html" module="langues" action="update" vars="id" />    
+    <route url="/comparateur/admin/langues/delete-([0-9]+)\.html" module="langues" action="delete" vars="id" />    
+    <!-- Nationalites -->
+    <route url="/comparateur/admin/nationalites/" module="nationalites" action="index" /> 
+    <route url="/comparateur/admin/nationalites/([0-9]+)/" module="nationalites" action="index" vars="page" /> 
+    <route url="/comparateur/admin/nationalites/insert\.html" module="nationalites" action="insert" />   
+    <route url="/comparateur/admin/nationalites/update-([0-9]+)\.html" module="nationalites" action="update" vars="id" />   
+    <route url="/comparateur/admin/nationalites/delete-([0-9]+)\.html" module="nationalites" action="delete" vars="id" />    
+    <!-- Paramètres -->
+    <route url="/comparateur/admin/parametres/" module="parametres" action="index" />
+    <!-- Primes -->
+    <route url="/comparateur/admin/primes/" module="primes" action="index" />
+    <route url="/comparateur/admin/primes/([0-9]+)/" module="primes" action="index" vars="page" />
+    <route url="/comparateur/admin/primes/insert\.html" module="primes" action="insert" />      
+    <route url="/comparateur/admin/primes/update-([0-9]+)\.html" module="primes" action="update" vars="id" />      
+    <route url="/comparateur/admin/primes/delete-([0-9]+)\.html" module="primes" action="delete" vars="id" />
+    <!-- Polices -->
+    <route url="/comparateur/admin/polices/" module="polices" action="index" />
+    <route url="/comparateur/admin/polices/([0-9]+)/" module="polices" action="index" vars="page" />
+    <route url="/comparateur/admin/polices/insert\.html" module="polices" action="insert" />      
+    <route url="/comparateur/admin/polices/update-([0-9]+)\.html" module="polices" action="update" vars="id" />      
+    <route url="/comparateur/admin/polices/delete-([0-9]+)\.html" module="polices" action="delete" vars="id" />
+    <!-- Polices types -->
+    <route url="/comparateur/admin/policesTypes/" module="policesTypes" action="index" />
+    <route url="/comparateur/admin/policesTypes/([0-9]+)/" module="policesTypes" action="index" vars="page" />
+    <route url="/comparateur/admin/policesTypes/insert\.html" module="policesTypes" action="insert" />      
+    <route url="/comparateur/admin/policesTypes/update-([0-9]+)\.html" module="policesTypes" action="update" vars="id" />      
+    <route url="/comparateur/admin/policesTypes/delete-([0-9]+)\.html" module="policesTypes" action="delete" vars="id" />
+    <!-- Régions -->
+    <route url="/comparateur/admin/regions/" module="regions" action="index" />    
+    <route url="/comparateur/admin/regions/([0-9]+)/" module="regions" action="index" vars="page" />    
+    <route url="/comparateur/admin/regions/insert\.html" module="regions" action="insert" />    
+    <route url="/comparateur/admin/regions/update-([0-9]+)\.html" module="regions" action="update" vars="id" />    
+    <route url="/comparateur/admin/regions/delete-([0-9]+)\.html" module="regions" action="delete" vars="id" />        
+    <!-- Utilisateurs -->
+    <route url="/comparateur/admin/utilisateurs/" module="utilisateurs" action="index" />    
+    <route url="/comparateur/admin/utilisateurs/([0-9]+)/" module="utilisateurs" action="index" vars="page" />    
+    <route url="/comparateur/admin/utilisateurs/insert\.html" module="utilisateurs" action="insert" />    
+    <route url="/comparateur/admin/utilisateurs/update-([0-9]+)\.html" module="utilisateurs" action="update" vars="id" />    
+    <route url="/comparateur/admin/utilisateurs/delete-([0-9]+)\.html" module="utilisateurs" action="delete" vars="id" />
+    <!-- Utilisateurs groupes -->
+    <route url="/comparateur/admin/utilisateursGroupes/" module="utilisateursGroupes" action="index" />    
+    <route url="/comparateur/admin/utilisateursGroupes/([0-9]+)/" module="utilisateursGroupes" action="index" vars="page" />    
+    <route url="/comparateur/admin/utilisateursGroupes/insert\.html" module="utilisateursGroupes" action="insert" />    
+    <route url="/comparateur/admin/utilisateursGroupes/update-([0-9]+)\.html" module="utilisateursGroupes" action="update" vars="id" />    
+    <route url="/comparateur/admin/utilisateursGroupes/delete-([0-9]+)\.html" module="utilisateursGroupes" action="delete" vars="id" />                    
+</routes>

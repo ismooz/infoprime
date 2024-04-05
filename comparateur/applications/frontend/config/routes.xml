@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Home -->
+    <route url="/comparateur/" module="home" action="index" />
+    <route url="/comparateur/home/" module="home" action="index" />
+    <route url="/comparateur/home/deconnexion/" module="home" action="deconnexion" />
+    <route url="/comparateur/home/contact/" module="home" action="contact" />
+    <route url="/comparateur/home/inscription/" module="home" action="inscription" />
+    <route url="/comparateur/home/forgot/" module="home" action="forgot" />
+    <route url="/comparateur/home/infos/" module="home" action="infos" />
+    <!-- Comparateur -->
+    <route url="/comparateur/comparateur/formSecond/" module="comparateur" action="formSecond" />
+    <route url="/comparateur/comparateur/formThird/" module="comparateur" action="formThird" />
+    <route url="/comparateur/comparateur/formFourth/" module="comparateur" action="formFourth" />
+    <route url="/comparateur/comparateur/process/" module="comparateur" action="process" />
+    <route url="/comparateur/comparateur/processFirst/" module="comparateur" action="processFirst" />
+    <route url="/comparateur/comparateur/profil/" module="comparateur" action="profil" />
+    <route url="/comparateur/comparateur/comparaisons/" module="comparateur" action="comparaisons" />
+</routes>

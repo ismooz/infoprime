@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+    <define var="nbChars" value="100" />
+    <define var="nbAssureurs" value="10" />
+    <define var="nbContacts" value="10" />
+    <define var="nbContactsEtats" value="10" />
+    <define var="nbContactsTypes" value="10" />
+    <define var="nbClients" value="10" />
+    <define var="nbClientsStatus" value="10" />
+    <define var="nbConseillers" value="10" />
+    <define var="nbLangues" value="10" />
+    <define var="nbNationalites" value="10" />
+    <define var="nbRegions" value="10" />
+    <define var="nbPolices" value="10" />
+    <define var="nbPolicesTypes" value="10" />
+    <define var="nbPrimes" value="10" />
+    <define var="nbUtilisateurs" value="10" />
+    <define var="nbUtilisateursGroupes" value="10" />
+</definitions>
